@@ -1,0 +1,225 @@
+{
+    "user": [
+        {
+            "user_id": "01",
+            "full_name": "Nguyen Hai Dang",
+            "username": "banhduc1998",
+            "password": "123456",
+            "isadmin": true,
+            "phone_number": "0327921777",
+            "dob": 1589289716,
+            "gender": 2,
+            "address": "alo",
+            "email": "banhduc1998@gmail.com",
+            "type_login": "ph",
+            "favor_id": [
+                "pd01",
+                "pd03"
+            ],
+            "created_at": 1601881316
+        },
+        {
+            "user_id": "02",
+            "full_name": "Nguyen Minh Tuấn",
+            "username": "banhduc1999",
+            "password": "123456",
+            "isadmin": true,
+            "phone_number": "0327921778",
+            "dob": 1599289316,
+            "gender": 2,
+            "address": "alo",
+            "email": "banhduc1998@yahoo.com",
+            "type_login": "gg",
+            "favor_id": [
+                "pd01",
+                "pd02"
+            ],
+            "created_at": 1601881316
+        },
+        {
+            "user_id": "03",
+            "full_name": "Nguyen Hai Đăng",
+            "username": "banhduc2000",
+            "password": "123456",
+            "isadmin": true,
+            "phone_number": "0327921779",
+            "dob": 1599289316,
+            "gender": 2,
+            "address": "alo",
+            "email": "banhduc1998@gmail.com",
+            "type_login": "fb",
+            "created_at": 1601881316
+        },
+        {
+            "user_id": "_qtpr43dpo",
+            "full_name": "Nguyen Minh Quang",
+            "username": "rwefd",
+            "password": "123456",
+            "isadmin": false,
+            "created_at": 1606313337365,
+            "phone_number": "0853211776",
+            "dob": 1599289316,
+            "gender": 2,
+            "address": "alo",
+            "email": "banhduc1998@gmail.com"
+        }
+    ],
+    "order": [
+        {
+            "order_id": "or01",
+            "user_id": "01",
+            "order_detail_id": [
+                "dt01",
+                "dt02",
+                "dt04"
+            ],
+            "created_at": 1601881316,
+            "bill_id": "bi02"
+        },
+        {
+            "order_id": "or02",
+            "user_id": "02",
+            "order_detail_id": [
+                "dt03",
+                "dt05"
+            ],
+            "created_at": 1601881316,
+            "bill_id": "bi01"
+        },
+        {
+            "order_id": "or03",
+            "user_id": "01",
+            "order_detail_id": [],
+            "created_at": 1601881316,
+            "bill_id": ""
+        }
+    ],
+    "order_detail": [
+        {
+            "order_detail_id": "dt01",
+            "product_id": "pd01",
+            "product_unit": 3,
+            "created_at": 1601881311
+        },
+        {
+            "order_detail_id": "dt02",
+            "product_id": "pd01",
+            "product_unit": 5,
+            "created_at": 1601881311
+        },
+        {
+            "order_detail_id": "dt03",
+            "product_id": "pd02",
+            "product_unit": 3,
+            "created_at": 1601881311
+        },
+        {
+            "order_detail_id": "dt04",
+            "product_id": "pd02",
+            "product_unit": 1,
+            "created_at": 1601881311
+        },
+        {
+            "order_detail_id": "dt05",
+            "product_id": "pd03",
+            "product_unit": 3,
+            "created_at": 1601881311
+        }
+    ],
+    "product": [
+        {
+            "product_id": "pd01",
+            "name": "vay",
+            "description": "dep",
+            "amount": 120,
+            "price": 200000,
+            "count_favor": 0,
+            "image_id": 1212,
+            "type": "vay",
+            "material": "cotton",
+            "color": "black",
+            "size": [
+                "M",
+                "X",
+                "L",
+                "S"
+            ],
+            "sale": 30,
+            "created_at": 1601881115
+        },
+        {
+            "product_id": "pd02",
+            "name": "quan",
+            "description": "dep",
+            "amount": 120,
+            "price": 300000,
+            "count_favor": 0,
+            "image_id": 1212,
+            "type": "vay",
+            "material": "cotton",
+            "color": "black",
+            "size": [
+                "M",
+                "X",
+                "L",
+                "S"
+            ],
+            "sale": 10,
+            "created_at": 1601881115
+        },
+        {
+            "product_id": "pd03",
+            "name": "ao",
+            "description": "dep",
+            "amount": 120,
+            "price": 250000,
+            "count_favor": 0,
+            "image_id": 1212,
+            "type": "vay",
+            "material": "cotton",
+            "color": "black",
+            "size": [
+                "M",
+                "X",
+                "L",
+                "S"
+            ],
+            "sale": 20,
+            "created_at": 1601881115
+        },
+        {
+            "product_id": "pd04",
+            "name": "vay",
+            "description": "dep",
+            "amount": 120,
+            "price": 400000,
+            "count_favor": 0,
+            "image_id": 1212,
+            "type": "vay",
+            "material": "cotton",
+            "color": "black",
+            "size": [
+                "M",
+                "X",
+                "L",
+                "S"
+            ],
+            "sale": 50,
+            "created_at": 1601881115
+        }
+    ],
+    "bill": [
+        {
+            "bill_id": "bi01",
+            "price": 0,
+            "created_at": 1601875632,
+            "order_id": "or02"
+        },
+        {
+            "bill_id": "bi02",
+            "price": 0,
+            "created_at": 1601875632,
+            "order_id": "or01"
+        }
+    ]
+}
